@@ -1,0 +1,16 @@
+use_frameworks!
+
+source 'https://github.disney.com/wdpro-mobile/pro-specs.git'
+source 'https://github.disney.com/HSIAY003/shdr-pro-specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/PaymentKit/PaymentSpec'
+
+target 'HaviPayment_Example' do
+  pod 'HaviPayment', :path => '../'
+  pod 'SHPaymentMethod', :git => 'https://github.com/PaymentKit/SHDRPaymentMethod.git', :branch => 'master'
+  target 'HaviPayment_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

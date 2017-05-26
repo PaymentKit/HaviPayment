@@ -1,0 +1,22 @@
+{
+  "name": "SHPaymentMethod",
+  "version": "0.1.0",
+  "summary": "paymentmethod one abtacte class",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PaymentKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1058695900@qq.com": "HAVI.X.LI.-ND@DISNEY.COM"
+  },
+  "source": {
+    "git": "https://github.com/PaymentKit/SHDRPaymentMethod.git",
+    "branch": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SHPaymentMethod/Classes/**/*"
+}

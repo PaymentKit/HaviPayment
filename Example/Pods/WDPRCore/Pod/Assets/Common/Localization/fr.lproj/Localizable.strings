@@ -1,0 +1,38 @@
+/* 
+  WDPRCoreLocalizable.strings
+  Pods
+
+  Created by Gabriel Alejandro Afonso Goncalves on 9/23/15.
+
+*/
+
+
+//WDPRMailComposeViewController
+
+"com.wdprcore.mailcomposerview.subject" = "Remarques sur l'application Disneyland Paris";
+
+//UIAlertView (WDPR)
+
+"com.wdprcore.alertviewwdpr.cancelbutton" = "Annuler";
+"com.wdprcore.alertviewwdpr.callbutton" = "Appeler";
+"com.wdprcore.alertviewwdpr.title.opensafari" = "Ouvrez dans Safari?";
+"com.wdprcore.alertviewwdpr.cancelblocktitle" = "Annuler";
+
+//NSDateFormatter (WDPR)
+
+"com.wdprcore.briefTimeFormat24" = "H'h'mm";
+"com.wdprcore.briefTimeFormat12" = "h:mm a";
+"com.wdprcore.dateformatter.hour" = "%@ heure";
+"com.wdprcore.dateformatter.hours" = "%@ heures";
+"com.wdprcore.dateformatter.minute" = "%@ minute";
+"com.wdprcore.dateformatter.minutes" = "%@ minutes";
+"com.wdprcore.dateformatter.weekdayformat" = "EE";
+"com.wdprcore.dateformatter.yearmonthformat" = "MMMM yyyy";
+
+//WDPRBarButtonItem
+
+"com.wdprcore.buttonitem.cancel.title" = "Annuler";
+
+// WDPRCardCell
+"com.wdprcore.cardcell.footer.disclaimer" = "This is not a reservation.";
+"com.wdprcore.cardcell.disablityaccessservice" = "Disability Access Service";

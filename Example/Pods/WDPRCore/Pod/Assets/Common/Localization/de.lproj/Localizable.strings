@@ -1,0 +1,176 @@
+/*
+ Localizable.strings
+ Pods
+ 
+ Created by Gabriel Goncalves on 4/31/16.
+ 
+ */
+
+//NSDate (WDPR)
+
+"com.wdprcore.dining.breakfast" = "Breakfast";
+"com.wdprcore.dining.lunch" = "Lunch";
+"com.wdprcore.dining.dinner" = "Dinner";
+"com.wdprcore.datewdpr.today" = "Today";
+"com.wdprcore.datewdpr.tomorrow" = "Tomorrow";
+"com.wdprcore.datewdpr.yesterday" = "Yesterday";
+
+//WDPRUIKit
+
+"com.wdprcore.wdpruikit.alertwarning.title" = "Not Yet Implemented";
+"com.wdprcore.wdpruikit.alertwarning.message" = "Sorry, the engineers haven't reached this on their task list yet.";
+"com.wdprcore.wdpruikit.alertwarning.button" = "OK";
+"com.wdprcore.wdpruikit.errorbanner.dismissconnectivityalert" = "Dismiss connectivity alert";
+"com.wdprcore.wdpruikit.notificationbanner.dismissalert" = "Dismiss alert";
+"com.wdprcore.wdpruikit.notificationbanner.retry" = "Retry";
+
+//WDPRTableController
+
+"com.wdprcore.alertview.phonecallerror.title" = "We're Sorry!";
+"com.wdprcore.alertview.phonecallerror.message" = "Your device doesn't support making phone calls.";
+
+//WDPRTabView
+
+"com.wdprcore.tabview.selected" = "Selected";
+
+//WDPRIcon
+
+"com.wdprcore.wdpricon.title" = "PEP Icon Font";
+"com.wdprcore.barbuttonitem.changecolor.title" = "Change Color";
+"com.wdprcore.alertviewchangecolor.title" = "Change Color";
+"com.wdprcore.alertviewchangecolor.message" = "Enter hexCode for new color:";
+"com.wdprcore.alertviewchangecolor.button.cancel" = "Cancel";
+"com.wdprcore.alertviewchangecolor.button.ok" = "OK";
+"com.wdprcore.wdpricon.header.message" = "These, and many more icons are available in the PEP Icon Font (Peptasia) in any size/color combination without any PNG assets.";
+"com.wdprcore.wdpricon.table.headerbrand" = "Brands";
+"com.wdprcore.wdpricon.table.headerparks" = "Parks";
+"com.wdprcore.wdpricon.table.headerfacilities" = "Facilities";
+"com.wdprcore.wdpricon.table.headerguestservices" = "Guest Services";
+"com.wdprcore.wdpricon.table.headeractions" = "Actions";
+"com.wdprcore.wdpricon.table.headernavigation" = "Navigation";
+"com.wdprcore.wdpricon.table.headercheckmarks" = "Checkmarks";
+"com.wdprcore.wdpricon.table.headerdisabilities" = "Disabilities";
+"com.wdprcore.wdpricon.table.accessibility" = "Accessibility";
+"com.wdprcore.wdpricon.table.activities" = "Activities";
+"com.wdprcore.wdpricon.table.commercetickets" = "Commerce & Tickets";
+"com.wdprcore.wdpricon.table.dcl" = "Disney Cruise Line";
+"com.wdprcore.wdpricon.table.dining" = "Dining/Great Fast Food (GFF)";
+"com.wdprcore.wdpricon.table.dlp" = "Disneyland Paris";
+"com.wdprcore.wdpricon.table.guestservices" = "Guest Services/Maps Set 1";
+"com.wdprcore.wdpricon.table.guestservices2" = "Guest Services/Maps Set 2";
+"com.wdprcore.wdpricon.table.interactive" = "Interactive";
+"com.wdprcore.wdpricon.table.media" = "Media";
+"com.wdprcore.wdpricon.table.helpsupport" = "Messaging/Help & Support";
+"com.wdprcore.wdpricon.table.miscellaneous" = "Miscellaneous";
+"com.wdprcore.wdpricon.table.profile" = "Profile";
+"com.wdprcore.wdpricon.table.sportsrecreation" = "Sports & Recreation";
+"com.wdprcore.wdpricon.table.transportation" = "Transportation";
+"com.wdprcore.wdpricon.table.waltdisneyworld" = "Walt Disney World";
+"com.wdprcore.wdpricon.table.weather" = "Weather";
+
+//WDPRBlockOutCalendarView
+
+"com.wdprcore.blockout.basestring.today" = "Today";
+"com.wdprcore.blockout.basestring.tomorrow" = "Tomorrow";
+
+//DynamicTextDemo
+
+"com.wdprcore.dynamictext.title" = "Dynamic Text Styles";
+"com.wdprcore.dynamictext.header.message" = "These are the OS standard text styles. Go to Settings->General->Accessibility-> Larger Text to adjust sizing.<P>We need equivalent meta-font definitions for DLR/RefApp usage.";
+
+//WDPRFloatLabelFieldSampler
+
+"com.wdprcore.floatlabelfield.bithday" = "Birthday";
+"com.wdprcore.floatlabelfield.firstname" = "First Name";
+"com.wdprcore.floatlabelfield.lastname" = "Last Name";
+"com.wdprcore.floatlabelfield.stateroomnumber" = "Stateroom Number";
+"com.wdprcore.floatlabelfield.title" = "WDPRFloatLabelFieldSampler";
+"com.wdprcore.floatlabelfield.header.message" = "To chat, please provide the following exactly as it is on your cruise documentation:";
+
+//WDPRUIComponentViewController
+
+"com.wdprcore.componentviewcontroller.title" = "Text & Color Sampler";
+"com.wdprcore.systemcolorscontroller.title" = "Other (System) Colors";
+"com.wdprcore.componentviewcontroller.table.headerstandardstyles" = "Standard Styles";
+"com.wdprcore.componentviewcontroller.table.headerstandardcolors" = "Standard Colors";
+"com.wdprcore.componentviewcontroller.table.headerstandardfonts" = "Standard Fonts";
+"com.wdprcore.componentviewcontroller.table.titleviewother" = "View Other (System) Colors...";
+
+//WDPRTableDataDelegate
+
+"com.wdprcore.tabledatadelegate.requiredtext" = "*required";
+
+//WDPRTableDataDelegate (Validate)
+
+"com.wdprcore.alerttabledatadelegate.ok" = "OK";
+"com.wdprcore.tabledatadelegate.errortitle.invalidtitle" = "Invalid Information";
+"com.wdprcore.tabledatadelegate.errortitle.missingtitle" = "Missing information";
+"com.wdprcore.tabledatadelegate.errortitle.missingorinvalidtitle" = "Missing or Invalid Information";
+"com.wdprcore.tabledatadelegate.error.fillfields" = "Please fill out all required fields.";
+"com.wdprcore.tabledatadelegate.errortitle.sorry" = "We're Sorry";
+"com.wdprcore.tabledatadelegate.errortitle.missinginformation" = "Missing or Invalid Information";
+"com.wdprcore.tabledatadelegate.error.invalidinformation" = "Invalid Information.";
+"com.wdprcore.tabledatadelegate.error.alerterror" = "Alert, invalid input %@";
+"com.wdprcore.tabledatadelegate.accessibility.required" = "Required";
+"com.wdprcore.tabledatadelegate.accessibility.dropdown" = "Dropdown";
+"com.wdprcore.tabledatadelegate.accessibility.textfield" = "Text field";
+"com.wdprcore.tabledatadelegate.accessibility.obscured" = "Provided";
+
+//WDPRMailComposeViewController
+
+"com.wdprcore.mailcomposerview.subject" = "My App Feedback";
+
+//WDPRModalSwipeDownTransition
+
+"com.wdprcore.dropdownbutton.label.message" = "Close";
+
+//UIAlertView (Blocks)
+
+"com.wdprcore.alertviewblock.okbutton" = "OK";
+"com.wdprcore.alertviewblock.message" = "We're having trouble connecting right now. Please try again soon.";
+
+//UIAlertView (WDPR)
+
+"com.wdprcore.alertviewwdpr.title" = "We're Sorry!";
+"com.wdprcore.alertviewwdpr.message" = "Your device doesn't support making phone calls.";
+"com.wdprcore.alertviewwdpr.cancelbutton" = "Abbrechen";
+"com.wdprcore.alertviewwdpr.callbutton" = "Anrufen";
+"com.wdprcore.alertviewwdpr.titlesorry" = "We're Sorry!";
+"com.wdprcore.alertviewwdpr.messagesupportexternalurl" = "Your device doesn't support external urls";
+"com.wdprcore.alertviewwdpr.confirmblock" = "OK";
+"com.wdprcore.alertviewwdpr.title.opensafari" = "Open in browser?";
+"com.wdprcore.alertviewwdpr.cancelblocktitle" = "Abbrechen";
+
+//NSDateFormatter (WDPR)
+
+"com.wdprcore.dateformatter.relativedate" = "%@ at %@";
+"com.wdprcore.briefTimeFormat24" = "H:mm";
+"com.wdprcore.briefTimeFormat12" = "h:mm a";
+"com.wdprcore.dateformatter.hour" = "%@ hour";
+"com.wdprcore.dateformatter.hours" = "%@ hours";
+"com.wdprcore.dateformatter.minute" = "%@ minute";
+"com.wdprcore.dateformatter.minutes" = "%@ minutes";
+"com.wdprcore.dateformatter.weekdayformat" = "EE";
+"com.wdprcore.dateformatter.yearmonthformat" = "MMMM yyyy";
+
+//WDPRBarButtonItem
+
+"com.wdprcore.buttonitem.accessibilitylabel.next.label" = "Next";
+"com.wdprcore.buttonitem.accessibilitylabel.back.label" = "Back";
+"com.wdprcore.buttonitem.done.title" = "Done";
+"com.wdprcore.buttonitem.cancel.title" = "Cancel";
+
+//UIViewController (WDPR)
+
+"com.wdprcore.viewcontrollerwdpr.message" = "Loading";
+
+//WDPRSampleTableController
+
+"com.wdprcore.wdprsampletable.headerunaltered.message" = "Unadulterated Cells";
+"com.wdprcore.wdprsampletable.headerstandardcell.message" = "Standard Cell Styles";
+"com.wdprcore.wdprsampletable.headercustomcell.message" = "Custom Cell Styles";
+"com.wdprcore.wdprsampletable.cellitem.placeholder" = "this is editable";
+
+// WDPRCardCell
+"com.wdprcore.cardcell.footer.disclaimer" = "This is not a reservation.";
+"com.wdprcore.cardcell.disablityaccessservice" = "Disability Access Service";

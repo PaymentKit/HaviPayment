@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>supportedLocales</key>
+	<array>
+		<dict>
+			<key>language</key>
+			<string>en-US</string>
+			<key>languagePrefix</key>
+			<string>en</string>
+			<key>supportedRegions</key>
+			<array/>
+			<key>defaultRegion</key>
+			<string>US</string>
+			<key>localeIdentifier</key>
+			<string>en</string>
+			<key>pushNotificationList</key>
+			<string>en</string>
+		</dict>
+	</array>
+	<key>defaultLocale</key>
+	<dict>
+		<key>language</key>
+		<string>en-US</string>
+		<key>region</key>
+		<string>US</string>
+		<key>localeIdentifier</key>
+		<string>en</string>
+		<key>pushNotificationList</key>
+		<string>en</string>
+	</dict>
+</dict>
+</plist>

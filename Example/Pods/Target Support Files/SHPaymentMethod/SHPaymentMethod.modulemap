@@ -1,0 +1,6 @@
+framework module SHPaymentMethod {
+  umbrella header "SHPaymentMethod-umbrella.h"
+
+  export *
+  module * { export * }
+}

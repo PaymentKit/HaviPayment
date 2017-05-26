@@ -1,0 +1,100 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (2.0.3):
+    - CocoaLumberjack/Default (= 2.0.3)
+    - CocoaLumberjack/Extensions (= 2.0.3)
+  - CocoaLumberjack/Core (2.0.3)
+  - CocoaLumberjack/Default (2.0.3):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.3):
+    - CocoaLumberjack/Default
+  - HaviPayment (0.1.0):
+    - WDPRAliPayWrapper (~> 0.5.0)
+    - WDPRCoreServices
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SHPaymentMethod (0.1.0)
+  - WDPRAliPayWrapper (0.5.1)
+  - WDPRCore (5.4.1):
+    - CocoaLumberjack (= 2.0.3)
+    - WDPRCore/WDPRConfiguration (= 5.4.1)
+    - WDPRCore/WDPRFoundation (= 5.4.1)
+    - WDPRCore/WDPRLogging (= 5.4.1)
+    - WDPRCore/WDPRUIKit (= 5.4.1)
+    - WDPRCore/WDPRUserSettings (= 5.4.1)
+  - WDPRCore/WDPRConfiguration (5.4.1):
+    - CocoaLumberjack (= 2.0.3)
+    - WDPRCore/WDPRFoundation
+  - WDPRCore/WDPRFoundation (5.4.1):
+    - CocoaLumberjack (= 2.0.3)
+    - WDPRCore/WDPRLogging
+  - WDPRCore/WDPRLogging (5.4.1):
+    - CocoaLumberjack (= 2.0.3)
+  - WDPRCore/WDPRUIKit (5.4.1):
+    - CocoaLumberjack (= 2.0.3)
+    - SDWebImage (~> 3.7)
+    - WDPRCore/WDPRFoundation
+  - WDPRCore/WDPRUserSettings (5.4.1):
+    - CocoaLumberjack (= 2.0.3)
+    - WDPRCore/WDPRFoundation
+  - WDPRCoreServices (5.2.2):
+    - AFNetworking (~> 2.5.0)
+    - WDPRCore
+    - WDPRReachability
+  - WDPRReachability (1.3.1):
+    - WDPRCore/WDPRFoundation
+    - WDPRReachability/Source (= 1.3.1)
+  - WDPRReachability/Source (1.3.1):
+    - WDPRCore/WDPRFoundation
+
+DEPENDENCIES:
+  - HaviPayment (from `../`)
+  - SHPaymentMethod (from `https://github.com/PaymentKit/SHDRPaymentMethod.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  HaviPayment:
+    :path: ../
+  SHPaymentMethod:
+    :branch: master
+    :git: https://github.com/PaymentKit/SHDRPaymentMethod.git
+
+CHECKOUT OPTIONS:
+  SHPaymentMethod:
+    :commit: 84fdc1876a80dce20136713031aa5b8a640414e4
+    :git: https://github.com/PaymentKit/SHDRPaymentMethod.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  CocoaLumberjack: f58d8a19629f4d8379ae14bb3534def24161430e
+  HaviPayment: 3668b1f5e0ffee12107d4d3c2be82fb0cfe0ceea
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SHPaymentMethod: d10c6f1420d829e5072154f9b449b8931ed08ff0
+  WDPRAliPayWrapper: 5d5e56de0945f62e52f36bf4a8160e31c6f7a198
+  WDPRCore: 6aef936d1bc5c9d62e67ee57285c1a1444ae3cbe
+  WDPRCoreServices: 517eaf3a0a4c8dfd0b791fe9f79894ba1299e32f
+  WDPRReachability: 764ae0738c82782f0736cf5d36332ae75ac9cff2
+
+PODFILE CHECKSUM: 6ead606e7bfc0517a1ea4117f0f422d5341e6d55
+
+COCOAPODS: 1.2.1

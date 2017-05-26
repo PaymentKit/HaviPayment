@@ -1,0 +1,30 @@
+{
+  "name": "HaviPayment",
+  "version": "0.1.0",
+  "summary": "done.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PaymentKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1058695900@qq.com": "HAVI.X.LI.-ND@DISNEY.COM"
+  },
+  "source": {
+    "git": "https://github.com/PaymentKit/HaviAliPayment.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HaviPayment/Classes/**/*",
+  "dependencies": {
+    "WDPRCoreServices": [
+
+    ],
+    "WDPRAliPayWrapper": [
+      "~> 0.5.0"
+    ]
+  }
+}

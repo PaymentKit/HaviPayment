@@ -1,0 +1,6 @@
+framework module HaviPayment {
+  umbrella header "HaviPayment-umbrella.h"
+
+  export *
+  module * { export * }
+}

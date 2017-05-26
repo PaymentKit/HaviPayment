@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WDPRCTAButtons</key>
+	<dict>
+		<key>fr</key>
+		<integer>16</integer>
+		<key>en-GB</key>
+		<integer>16</integer>
+		<key>es</key>
+		<integer>16</integer>
+		<key>nl</key>
+		<integer>16</integer>
+		<key>it</key>
+		<integer>16</integer>
+		<key>da-DK</key>
+		<integer>16</integer>
+		<key>de</key>
+		<integer>16</integer>
+	</dict>
+	<key>WDPRHeaders</key>
+	<dict>
+		<key>fr</key>
+		<integer>20</integer>
+		<key>en-GB</key>
+		<integer>20</integer>
+		<key>es</key>
+		<integer>20</integer>
+		<key>nl</key>
+		<integer>20</integer>
+		<key>it</key>
+		<integer>20</integer>
+		<key>da-DK</key>
+		<integer>20</integer>
+		<key>de</key>
+		<integer>20</integer>
+	</dict>
+	<key>WDPRDashboardFooter</key>
+	<dict>
+		<key>fr</key>
+		<integer>16</integer>
+		<key>en-GB</key>
+		<integer>16</integer>
+		<key>es</key>
+		<integer>16</integer>
+		<key>nl</key>
+		<integer>16</integer>
+		<key>it</key>
+		<integer>16</integer>
+		<key>da-DK</key>
+		<integer>16</integer>
+		<key>de</key>
+		<integer>16</integer>
+	</dict>
+</dict>
+</plist>

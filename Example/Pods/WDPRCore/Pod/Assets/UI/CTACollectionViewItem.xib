@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WDPRCTACollectionViewItem">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="1000" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KB8-Ty-hqZ">
+                    <rect key="frame" x="10" y="49" width="60" height="44"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fXF-ih-Zzn">
+                    <rect key="frame" x="22" y="8" width="36" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="36" id="lJT-iS-gAN"/>
+                        <constraint firstAttribute="width" secondItem="fXF-ih-Zzn" secondAttribute="height" multiplier="1:1" id="mLu-1q-WYy"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HcK-YP-MQf">
+                    <rect key="frame" x="79" y="0.0" width="1" height="90"/>
+                    <color key="backgroundColor" red="0.88235294117647056" green="0.91764705882352937" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="or1-AO-gJH"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fXF-ih-Zzn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="AME-th-VZj"/>
+                <constraint firstItem="KB8-Ty-hqZ" firstAttribute="top" secondItem="fXF-ih-Zzn" secondAttribute="bottom" constant="5" id="Z6C-qi-8CZ"/>
+                <constraint firstAttribute="trailing" secondItem="HcK-YP-MQf" secondAttribute="trailing" id="Zx7-AI-Tg0"/>
+                <constraint firstAttribute="bottom" secondItem="KB8-Ty-hqZ" secondAttribute="bottom" constant="7" id="aX6-hU-EkX"/>
+                <constraint firstItem="HcK-YP-MQf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ehq-sZ-szD"/>
+                <constraint firstItem="KB8-Ty-hqZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="fks-hJ-bRr"/>
+                <constraint firstAttribute="bottom" secondItem="HcK-YP-MQf" secondAttribute="bottom" constant="10" id="sOW-dh-EkD"/>
+                <constraint firstAttribute="trailing" secondItem="KB8-Ty-hqZ" secondAttribute="trailing" constant="10" id="vBr-dS-h1q"/>
+                <constraint firstItem="fXF-ih-Zzn" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="z5L-aR-Zzk"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="iconSizeConstraint" destination="lJT-iS-gAN" id="rCu-1k-it5"/>
+                <outlet property="iconView" destination="fXF-ih-Zzn" id="cnU-S8-nm4"/>
+                <outlet property="nameLabel" destination="KB8-Ty-hqZ" id="EWj-Ud-iCk"/>
+                <outlet property="separatorView" destination="HcK-YP-MQf" id="Ebh-my-C1C"/>
+            </connections>
+            <point key="canvasLocation" x="9" y="-115"/>
+        </view>
+    </objects>
+</document>
