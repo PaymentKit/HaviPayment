@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DB063DDA307B1D97D33B5922E13C8F827F1D8D56",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DB063DDA307B1D97D33B5922E13C8F827F1D8D56" : 9223372036854775807,
+    "703CA8A08D18B7CA5A28AB3668565B670BFED605" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1604ACA4-24F5-4E94-B9DF-55D6BF935722",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DB063DDA307B1D97D33B5922E13C8F827F1D8D56" : "HaviPayment\/",
+    "703CA8A08D18B7CA5A28AB3668565B670BFED605" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HaviPayment",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/HaviPayment.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PaymentKit\/HaviAliPayment.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "703CA8A08D18B7CA5A28AB3668565B670BFED605"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PaymentKit\/HaviPayment.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DB063DDA307B1D97D33B5922E13C8F827F1D8D56"
+    }
+  ]
+}

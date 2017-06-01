@@ -29,6 +29,7 @@ PODS:
   - CocoaLumberjack/Extensions (2.0.3):
     - CocoaLumberjack/Default
   - HaviPayment (0.1.0):
+    - SHPaymentMethod
     - WDPRAliPayWrapper (~> 0.5.0)
     - WDPRCoreServices
   - SDWebImage (3.8.2):
@@ -87,7 +88,7 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
   CocoaLumberjack: f58d8a19629f4d8379ae14bb3534def24161430e
-  HaviPayment: 3668b1f5e0ffee12107d4d3c2be82fb0cfe0ceea
+  HaviPayment: 7ae7a1fcaece161d3b81cc54716f52c94a3c71a2
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   SHPaymentMethod: d10c6f1420d829e5072154f9b449b8931ed08ff0
   WDPRAliPayWrapper: 5d5e56de0945f62e52f36bf4a8160e31c6f7a198
